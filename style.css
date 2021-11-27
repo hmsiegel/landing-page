@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 72px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 200px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.footer {
+    height: 72px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    background-color: #1f2937;
+    padding: 16px 200px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    gap: 32px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.banner-left > p {
+    color: #E5E7EB;
+}
+
+.banner-right {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+p {
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.image-container {
+    display: flex;
+    gap: 32px;
+}
+
+.info-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image > img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #F1DCA7;
+    border-radius: 10px;
+}
+
+.info-image > p {
+    width: 200px;
+    color: #1F2937;
+}
+
+.info-image > p > a {
+    color: #1F2937;
+}
+
+.quote-section > * {
+    padding: 0;
+    margin: 0;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 48px 200px;
+
+}
+
+.quote-paragraph {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.quote-attributer {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+    align-self: center;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #F1DCA7;
+    color: #1f2937;
+    font-weight: bold;
+    width: 150px;
+}
+
+.call-to-action {
+    display:  flex;
+    justify-content: center;
+    align-content: center;
+    color: #1f2937;
+    padding: 48px 0;
+}
+
+.action-container {
+    display:  flex;
+    background-color: #F1DCA7;
+    padding: 32px 200px;
+    border-radius: 8px;
+    gap: 32px;
+}
+
+.action-container > button {
+    border: 3px solid #1f2937;
+    height: 50%;
+    align-self: center;
+}
